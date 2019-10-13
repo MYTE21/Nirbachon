@@ -1,19 +1,17 @@
 import tkinter as tk
-import team_number
-import team_button
+import initial
 
 window = tk.Tk()
 
 
 def add():
-    team_number.TeamNumber(window)
-    team_button.TeamButton(window)
+    initial.Initial(window)
 
 
 class Initial:
     def __init__(self):
         window.geometry('800x400')
-        window.title("Bangladesh Nirbachon")
+        window.title("MYTE Nirbachon")
         add()
 
 
